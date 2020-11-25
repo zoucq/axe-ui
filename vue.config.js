@@ -23,7 +23,7 @@ const getEntries = dir => {
 const commonConfig = {
   publicPath: '/',
   devServer: {
-    host: 'dev.axe-ui.com',
+    host: 'localhost',
     port: 8080,
     disableHostCheck: true
   },

@@ -32,6 +32,12 @@ module.exports = {
         link: '/card/',
         collapsable: false,
         sidebarDepth: 1
+      },
+      {
+        text: 'BackTop 回到顶部',
+        link: '/backtop/',
+        collapsable: false,
+        sidebarDepth: 1
       }
     ]
   }

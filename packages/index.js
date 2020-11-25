@@ -3,8 +3,16 @@ import AxeCard from './card'
 import AxeButtonGroup from './button-group/'
 import AxeIcon from './icon/'
 import AxeInput from './input/'
+import AxeBackTop from './back-top/'
 console.log(AxeButton, AxeIcon)
-const components = [AxeButton, AxeIcon, AxeCard, AxeButtonGroup, AxeInput]
+const components = [
+  AxeButton,
+  AxeIcon,
+  AxeCard,
+  AxeButtonGroup,
+  AxeInput,
+  AxeBackTop
+]
 
 const install = (app, opts = {}) => {
   components.forEach(item => {
@@ -25,5 +33,6 @@ export default {
   AxeIcon,
   AxeButtonGroup,
   AxeInput,
-  AxeCard
+  AxeCard,
+  AxeBackTop
 }

@@ -1,0 +1,32 @@
+@import './base';
+
+$defaultIndex: 9;
+
+.axe-fade-in-enter-active,
+.axe-fade-in-leave-active {
+  transition: opacity .4s ease-in-out;
+}
+.axe-fade-in-enter,
+.axe-fade-in-leave-to {
+  opacity: 0;
+}
+
+.axe-back-top{
+  position: fixed;
+  right: 32px;
+  bottom: 40px;
+  z-index: $defaultIndex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(0,0,0,.12);
+  cursor: pointer;
+  .icon{
+    color: $primary;
+    transform: rotate(90deg);
+  }
+}

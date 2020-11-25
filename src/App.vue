@@ -13,15 +13,16 @@
 </style>
 <template>
   <!-- <div class="axe-container"> -->
-    <axe-header />
-    <div class="axe-main">
-      <Button />
-      <ButtonGroup />
-      <Icon />
-      <Card />
-      <Input />
-    </div>
-    <axe-footer />
+  <axe-header />
+  <div class="axe-main">
+    <Button />
+    <ButtonGroup />
+    <Icon />
+    <Card />
+    <Input />
+    <BackTop />
+  </div>
+  <axe-footer />
   <!-- </div> -->
 </template>
 
@@ -31,6 +32,7 @@ import Icon from './components/Icon.vue'
 import ButtonGroup from './components/ButtonGroup.vue'
 import Card from './components/Card.vue'
 import Input from './components/Input.vue'
+import BackTop from './components/BackTop.vue'
 
 export default {
   name: 'App',
@@ -39,7 +41,8 @@ export default {
     Icon,
     Input,
     ButtonGroup,
-    Card
+    Card,
+    BackTop
   }
 }
 </script>
